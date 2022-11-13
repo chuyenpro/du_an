@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 10%;
+}
+
+.top_header p {
+    margin-top: 35px;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.header {
+    margin-top: 30px;
+    position: relative;
+}
+
+.header input {
+    height: 56px;
+    width: 330px;
+}
+
+.header .header_box {
+    height: 56px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.header .header_nav {
+    position: absolute;
+    display: flex;
+    right: 10%;
+}
+
+.header a {
+    font-size: 16px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #151B32;
+    font-family: 'Poppins';
+    text-decoration: none;
+}
+
+.header a:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 56px;
+    background-color: #849FFF;
+    color: #fff;
+    border-radius: 3px;
+    
+}
+
+.infor {
+    margin-top: 80px;
+}
+
+.infor .infor_box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.infor .infor_profile {
+    display: flex;
+    width: 400px;
+    height: 208px;
+    background: #FBFCFF;
+    border-radius: 16px;
+   
+}
+
+.infor img {
+    flex: none;
+    width: 97px;
+    height: 97px;
+    margin: 15px 10px 0 15px;
+
+}
+
+.infor_profile:hover {
+    border: 1px solid #BFC8E6;
+    box-shadow: 0px 8px 23px rgba(218, 224, 249, 0.7);
+    border-radius: 16px;
+    cursor: pointer;
+
+}
+
+.infor .name {
+
+    width: 125px;
+    height: 23px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.infor .live {
+    display: inline;
+    width: 52px;
+    height: 21px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+.infor_profile .profile{
+    display: inline;
+    margin-top: 30px;
+}
+.profile .live{
+    font-weight: 600;
+}
+.profile .like{
+    display: flex;
+    
+}
+.like p{
+    margin-right: 10px;
+    border: solid 1px #BFC8E6;
+    width: 85px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    color: #516FD4;
+    
+}
+
+@media (max-width: 1200px){
+    
+}
